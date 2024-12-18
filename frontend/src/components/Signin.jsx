@@ -17,7 +17,7 @@ const Signin = () => {
 
         if(response.status === 201){
             console.log("sigin successful");
-            navigate("/dashboard");
+            navigate("/");
         }else{
             console.log("signin failed");
         }
